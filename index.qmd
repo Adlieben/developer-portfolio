@@ -2,7 +2,7 @@
 title: "About me"
 ---
 
-This is a Quarto website.
+This is a section about me.
 
 To learn more about Quarto websites visit <https://quarto.org/docs/websites>......
 
