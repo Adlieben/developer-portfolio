@@ -1,12 +1,5 @@
 [
   {
-    "objectID": "skills.html",
-    "href": "skills.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "About me",
@@ -14,15 +7,22 @@
     "text": "This is a section about me.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites……\nI’m adding this line here. And now going one step further.\n\n1 + 1\n\n[1] 2"
   },
   {
-    "objectID": "CV.html",
-    "href": "CV.html",
+    "objectID": "projects.html",
+    "href": "projects.html",
     "title": "About",
     "section": "",
     "text": "About this site\n\n1 + 1\n\n[1] 2"
   },
   {
-    "objectID": "projects.html",
-    "href": "projects.html",
+    "objectID": "skills.html",
+    "href": "skills.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "CV.html",
+    "href": "CV.html",
     "title": "About",
     "section": "",
     "text": "About this site\n\n1 + 1\n\n[1] 2"
