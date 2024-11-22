@@ -1,6 +1,5 @@
 project:
   type: website
-  output-dir: docs
 
 website:
   title: "developer-portfolio"
@@ -20,6 +19,3 @@ format:
     theme: cosmo
     css: styles.css
     toc: true
-
-
-

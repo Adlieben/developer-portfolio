@@ -3,7 +3,7 @@ on:
   push:
     branches: main
 
-name: Quarto Publish
+name: Quarto Publish bot banana
 
 jobs:
   build-deploy:
@@ -14,28 +14,12 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v4
 
-      - name: Set up R
-        uses: r-lib/actions/setup-r@v2
-        with:
-          r-version: '4.4.2'
-
-      - name: Install R Packages
-        run: |
-          Rscript -e 'install.packages(c("renv", "rmarkdown", "knitr"))'
-          Rscript -e 'renv::restore()'
-
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
-
-      - name: Render Site
-        run: quarto render
-
-      - name: Disable Jekyll
-        run: echo "" > .nojekyll
-
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
+        
+      - name: Render and Publish
+        uses: quarto-dev/quarto-actions/publish@v2
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./_site  # Adjust this if your output directory is different
-          publish_branch: gh-pages
+          target: gh-pages
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
