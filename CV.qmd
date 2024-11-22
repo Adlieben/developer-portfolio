@@ -2,7 +2,7 @@
 title: "About"
 ---
 
-About this site
+About this site. Here is my CV
 
 ```{r}
 1 + 1
