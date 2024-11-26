@@ -9,8 +9,8 @@ title: "About me"
   
   <!-- Links -->
   <div style="margin-top: 10px;">
-    <a href="https://github.com/Adlieben" target="_blank" style="margin: 0 15px;">GitHub</a>
-    <a href="https://www.linkedin.com/in/adam-maghout-130565213/" target="_blank" style="margin: 0 15px;">LinkedIn</a>
-    <a href="mailto:a.maghout@uu.nl" style="margin: 0 15px;">Mail me</a>
+    <a href="https://github.com/Adlieben" target="_blank" style="margin: 0 15px; text-decoration: none;">GitHub</a>
+    <a href="https://www.linkedin.com/in/adam-maghout-130565213/" target="_blank" style="margin: 0 15px; text-decoration: none;">LinkedIn</a>
+    <a href="mailto:a.maghout@uu.nl" style="margin: 0 15px; text-decoration: none;">Mail me</a>
   </div>
 </div>
