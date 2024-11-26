@@ -2,12 +2,15 @@
 title: "About me"
 ---
 
-This is a section about me.
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>......
-
-I'm adding this line here. And now going one step further.
-
-```{r}
-1 + 1
-```
+<div style="text-align: center;">
+  <!-- Profile Image -->
+  <img src="images/profile.jpg" alt="Profile Picture" style="border-radius: 50%; width: 150px; height: 150px;">
+  
+  <!-- Links -->
+  <div style="margin-top: 10px;">
+    <a href="https://github.com/Adlieben" target="_blank" style="margin: 0 15px;">GitHub</a>
+    <a href="https://www.linkedin.com/in/adam-maghout-130565213/" target="_blank" style="margin: 0 15px;">LinkedIn</a>
+    <a href="mailto:a.maghout@uu.nl" style="margin: 0 15px;">Mail me</a>
+  </div>
+</div>
