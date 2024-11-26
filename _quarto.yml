@@ -3,6 +3,7 @@ project:
 
 website:
   title: "Adam Maghout"
+  favicon: images/icon.png
   navbar:
     left:
       - href: index.qmd
