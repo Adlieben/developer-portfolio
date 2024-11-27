@@ -17,7 +17,7 @@ missing_packages <- required_packages[!(required_packages %in% installed.package
 
 # Install missing packages
 if(length(missing_packages)) {
-  install.packages(missing_packages, dependencies = TRUE)
+  install.packages(missing_packages)
 }
 
 # Libraries
