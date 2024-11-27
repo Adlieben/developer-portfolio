@@ -1,9 +1,5 @@
 ---
-title: "About"
+title: "CV"
 ---
 
-About this site. Here is my CV, complete with places I went to.
-
-```{r}
-1 + 1
-```
+You can view my CV [here](files/Adam Maghout CV.pdf){target="_blank"} (opens up in a separate tab).

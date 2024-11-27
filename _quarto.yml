@@ -6,14 +6,16 @@ website:
   favicon: images/icon.png
   navbar:
     left:
-      - href: index.qmd
+      - href: about-me.qmd
         text: About me
       - href: projects.qmd
         text: Projects
       - href: CV.qmd
         text: CV
       - href: skills.qmd
-        text: Skills  
+        text: Skills
+  page-footer:
+    center: "© <script>document.write(new Date().getFullYear());</script> Adam Maghout"
         
 format:
   html:
