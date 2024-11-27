@@ -10,6 +10,17 @@ format:
 
 ```{r language-map, echo=FALSE, message=FALSE, warning=FALSE}
 # Load necessary libraries
+required_packages <- c("leaflet", "dplyr", "rnaturalearth", "rnaturalearthdata", "stringr")
+
+# Identify packages that are not yet installed
+missing_packages <- required_packages[!(required_packages %in% installed.packages()[,"Package"])]
+
+# Install missing packages
+if(length(missing_packages)) {
+  install.packages(missing_packages, dependencies = TRUE)
+}
+
+# Libraries
 library(leaflet)
 library(dplyr)
 library(rnaturalearth)
