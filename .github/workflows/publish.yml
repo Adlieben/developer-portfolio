@@ -23,7 +23,7 @@ jobs:
         uses: actions/cache@v3
         with:
           path: ~/R/x86_64-pc-linux-gnu-library/4.2
-          key: ${{ runner.os }}-R-${{ hashFiles("**/renv.lock") }}
+          key: ${{ runner.os }}-R-${{ hashFiles('**/renv.lock') }}
           restore-keys: |
             ${{ runner.os }}-R-
 
