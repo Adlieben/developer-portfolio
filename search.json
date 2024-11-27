@@ -21,20 +21,6 @@
     "text": "I’m a graduate student and research assistant at Utrecht University in the Netherlands. My main areas of interest are educational measurement, survey design, and promoting reproducibility in research. I really enjoy teaching, and have been teaching French online for over three years, as well as teaching on summer courses. I’m also into music, you can learn about everything I play on my sister website."
   },
   {
-    "objectID": "skills.html",
-    "href": "skills.html",
-    "title": "Skills",
-    "section": "",
-    "text": "[[1]]\n[1] \"leaflet\"   \"stats\"     \"graphics\"  \"grDevices\" \"datasets\"  \"utils\"    \n[7] \"methods\"   \"base\"     \n\n[[2]]\n[1] \"dplyr\"     \"leaflet\"   \"stats\"     \"graphics\"  \"grDevices\" \"datasets\" \n[7] \"utils\"     \"methods\"   \"base\"     \n\n[[3]]\n [1] \"rnaturalearth\" \"dplyr\"         \"leaflet\"       \"stats\"        \n [5] \"graphics\"      \"grDevices\"     \"datasets\"      \"utils\"        \n [9] \"methods\"       \"base\"         \n\n[[4]]\n [1] \"rnaturalearthdata\" \"rnaturalearth\"     \"dplyr\"            \n [4] \"leaflet\"           \"stats\"             \"graphics\"         \n [7] \"grDevices\"         \"datasets\"          \"utils\"            \n[10] \"methods\"           \"base\"             \n\n[[5]]\n [1] \"stringr\"           \"rnaturalearthdata\" \"rnaturalearth\"    \n [4] \"dplyr\"             \"leaflet\"           \"stats\"            \n [7] \"graphics\"          \"grDevices\"         \"datasets\"         \n[10] \"utils\"             \"methods\"           \"base\"             \n\n[[6]]\n [1] \"terra\"             \"stringr\"           \"rnaturalearthdata\"\n [4] \"rnaturalearth\"     \"dplyr\"             \"leaflet\"          \n [7] \"stats\"             \"graphics\"          \"grDevices\"        \n[10] \"datasets\"          \"utils\"             \"methods\"          \n[13] \"base\""
-  },
-  {
-    "objectID": "skills.html#languages",
-    "href": "skills.html#languages",
-    "title": "Skills",
-    "section": "",
-    "text": "[[1]]\n[1] \"leaflet\"   \"stats\"     \"graphics\"  \"grDevices\" \"datasets\"  \"utils\"    \n[7] \"methods\"   \"base\"     \n\n[[2]]\n[1] \"dplyr\"     \"leaflet\"   \"stats\"     \"graphics\"  \"grDevices\" \"datasets\" \n[7] \"utils\"     \"methods\"   \"base\"     \n\n[[3]]\n [1] \"rnaturalearth\" \"dplyr\"         \"leaflet\"       \"stats\"        \n [5] \"graphics\"      \"grDevices\"     \"datasets\"      \"utils\"        \n [9] \"methods\"       \"base\"         \n\n[[4]]\n [1] \"rnaturalearthdata\" \"rnaturalearth\"     \"dplyr\"            \n [4] \"leaflet\"           \"stats\"             \"graphics\"         \n [7] \"grDevices\"         \"datasets\"          \"utils\"            \n[10] \"methods\"           \"base\"             \n\n[[5]]\n [1] \"stringr\"           \"rnaturalearthdata\" \"rnaturalearth\"    \n [4] \"dplyr\"             \"leaflet\"           \"stats\"            \n [7] \"graphics\"          \"grDevices\"         \"datasets\"         \n[10] \"utils\"             \"methods\"           \"base\"             \n\n[[6]]\n [1] \"terra\"             \"stringr\"           \"rnaturalearthdata\"\n [4] \"rnaturalearth\"     \"dplyr\"             \"leaflet\"          \n [7] \"stats\"             \"graphics\"          \"grDevices\"        \n[10] \"datasets\"          \"utils\"             \"methods\"          \n[13] \"base\""
-  },
-  {
     "objectID": "CV.html",
     "href": "CV.html",
     "title": "CV",
