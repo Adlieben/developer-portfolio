@@ -9,23 +9,19 @@ format:
 ## Languages
 
 ```{r language-map, echo=FALSE, message=FALSE, warning=FALSE}
-# Load necessary libraries
-required_packages <- c("leaflet", "dplyr", "rnaturalearth", "rnaturalearthdata", "stringr")
+# Define the required packages
+required_packages <- c("leaflet", "dplyr", "rnaturalearth", "rnaturalearthdata", "stringr", "terra")
 
 # Identify packages that are not yet installed
 missing_packages <- required_packages[!(required_packages %in% installed.packages()[,"Package"])]
 
 # Install missing packages
 if(length(missing_packages)) {
-  install.packages(missing_packages)
+  install.packages(missing_packages, dependencies = F)
 }
 
-# Libraries
-library(leaflet)
-library(dplyr)
-library(rnaturalearth)
-library(rnaturalearthdata)
-library(stringr) # For string manipulation
+# Load all required packages
+lapply(required_packages, library, character.only = TRUE)
 
 # Define the languages and corresponding countries
 languages <- list(
