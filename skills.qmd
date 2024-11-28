@@ -10,8 +10,6 @@ execute:
 
 ## Coding
 
-### Interactive Code Examples
-
 ---
 
 <details>
