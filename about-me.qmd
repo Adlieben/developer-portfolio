@@ -6,19 +6,19 @@ format:
     number-sections: false
 ---
 
-::: {.columns}
-  
-::: {.column width="40%"}
-  
+::: {.row}
+
+::: {.col-12 .col-md-4}
+
 <!-- Profile Image -->
-<img src="images/Aboutme.jpg" alt="About me Picture" style="width: 250px">
-  
+<img src="images/Aboutme.jpg" alt="About me Picture" class="img-fluid">
+
 :::
-  
-::: {.column width="60%" style="font-size: 1rem; text-align: justify;"}
-  
+
+::: {.col-12 .col-md-8}
+
 I'm a graduate student and research assistant at Utrecht University in the Netherlands. My main areas of interest are educational measurement, survey design, and promoting reproducibility in research. I really enjoy teaching, and have been teaching French online for over three years, as well as teaching on summer courses. I'm also into music, you can learn about everything I play on my [sister website](https://www.adam-maghout.co.uk/){target="_blank"}.
-  
+
 :::
-  
+
 :::

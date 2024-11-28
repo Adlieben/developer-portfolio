@@ -4,7 +4,82 @@ format:
   html:
     toc: false
     number-sections: false
+execute:
+  thebe: true
 ---
+
+## Coding
+
+### Interactive Code Examples
+
+---
+
+<details>
+  <summary style="font-size:1.2em;">🟢 R</summary>
+
+```{r, eval=F}
+# Flipping a coin in R
+coin_flip <- function() {
+  outcome <- sample(c("Heads", "Tails"), size = 1)
+  return(outcome)
+}
+
+coin_flip()
+```
+
+</details>
+
+---
+
+<details>
+  <summary style="font-size:1.2em;">🔵 Python</summary>
+
+```{python, python.reticulate=F, eval=F}
+# Flipping a coin in python
+import random
+
+def coin_flip():
+    outcome = random.choice(["Heads", "Tails"])
+    return outcome
+
+coin_flip()
+```
+
+</details>
+
+---
+
+<details>
+  <summary style="font-size:1.2em;">🟠 Fortran</summary>
+
+```{fortran, eval=F}
+! Flipping a coin with fortran subroutine
+program coin_flip_program
+  implicit none
+  character(len=5) :: outcome
+
+  call coin_flip(outcome)
+  print *, 'The coin flip result is: ', outcome
+
+contains
+
+  subroutine coin_flip(result)
+    character(len=5), intent(out) :: result
+    real :: rand_num
+
+    call random_seed()
+    call random_number(rand_num)
+    if (rand_num < 0.5) then
+      result = 'Heads'
+    else
+      result = 'Tails'
+    end if
+  end subroutine coin_flip
+
+end program coin_flip_program
+```
+
+</details>
 
 ## Languages
 
