@@ -21,6 +21,27 @@
     "text": "I’m a graduate student and research assistant at Utrecht University in the Netherlands. My main areas of interest are educational measurement, survey design, and promoting reproducibility in research. I really enjoy teaching, and have been teaching French online for over three years, as well as teaching on summer courses. I’m also into music, you can learn about everything I play on my sister website."
   },
   {
+    "objectID": "skills.html",
+    "href": "skills.html",
+    "title": "Skills",
+    "section": "",
+    "text": "🟢 R\n\n\n# Flipping a coin in R\ncoin_flip &lt;- function() {\n  outcome &lt;- sample(c(\"Heads\", \"Tails\"), size = 1)\n  return(outcome)\n}\n\ncoin_flip()\n\n\n\n\n\n🔵 Python\n\n\n# Flipping a coin in python\nimport random\n\ndef coin_flip():\n    outcome = random.choice([\"Heads\", \"Tails\"])\n    return outcome\n\ncoin_flip()\n\n\n\n\n\n🟠 Fortran\n\n\n! Flipping a coin with fortran subroutine\nprogram coin_flip_program\n  implicit none\n  character(len=5) :: outcome\n\n  call coin_flip(outcome)\n  print *, 'The coin flip result is: ', outcome\n\ncontains\n\n  subroutine coin_flip(result)\n    character(len=5), intent(out) :: result\n    real :: rand_num\n\n    call random_seed()\n    call random_number(rand_num)\n    if (rand_num &lt; 0.5) then\n      result = 'Heads'\n    else\n      result = 'Tails'\n    end if\n  end subroutine coin_flip\n\nend program coin_flip_program"
+  },
+  {
+    "objectID": "skills.html#coding",
+    "href": "skills.html#coding",
+    "title": "Skills",
+    "section": "",
+    "text": "🟢 R\n\n\n# Flipping a coin in R\ncoin_flip &lt;- function() {\n  outcome &lt;- sample(c(\"Heads\", \"Tails\"), size = 1)\n  return(outcome)\n}\n\ncoin_flip()\n\n\n\n\n\n🔵 Python\n\n\n# Flipping a coin in python\nimport random\n\ndef coin_flip():\n    outcome = random.choice([\"Heads\", \"Tails\"])\n    return outcome\n\ncoin_flip()\n\n\n\n\n\n🟠 Fortran\n\n\n! Flipping a coin with fortran subroutine\nprogram coin_flip_program\n  implicit none\n  character(len=5) :: outcome\n\n  call coin_flip(outcome)\n  print *, 'The coin flip result is: ', outcome\n\ncontains\n\n  subroutine coin_flip(result)\n    character(len=5), intent(out) :: result\n    real :: rand_num\n\n    call random_seed()\n    call random_number(rand_num)\n    if (rand_num &lt; 0.5) then\n      result = 'Heads'\n    else\n      result = 'Tails'\n    end if\n  end subroutine coin_flip\n\nend program coin_flip_program"
+  },
+  {
+    "objectID": "skills.html#languages",
+    "href": "skills.html#languages",
+    "title": "Skills",
+    "section": "Languages",
+    "text": "Languages"
+  },
+  {
     "objectID": "CV.html",
     "href": "CV.html",
     "title": "CV",
