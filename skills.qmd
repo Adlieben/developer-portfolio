@@ -96,13 +96,14 @@ languages <- list(
     "United States", "United Kingdom", "Canada", "Australia", "New Zealand",
     "Ireland", "South Africa", "India", "Nigeria", "Philippines", "Singapore",
     "Kenya", "Ghana", "Uganda", "Tanzania", "Zimbabwe", "Malta", "Barbados",
-    "Jamaica", "Trinidad and Tobago"
+    "Jamaica", "Trinidad and Tobago", "Pakistan", "South Sudan", "Sudan", "Malaysia", "Botswana",
+    "Zambia", "Lesotho", "Eswatini", "Malawi"
   ),
   "French" = c(
     "France", "Canada", "Belgium", "Switzerland", "Luxembourg", "Senegal",
     "Ivory Coast", "Democratic Republic of the Congo", "Madagascar",
     "Cameroon", "Burkina Faso", "Niger", "Mali", "Rwanda", "Burundi",
-    "Benin", "Togo", "Republic of the Congo", "Chad", "Guinea"
+    "Benin", "Togo", "Republic of the Congo", "Chad", "Guinea", "Haiti", "Gabon"
   ),
   "German" = c(
     "Germany", "Austria", "Switzerland", "Luxembourg",
