@@ -10,7 +10,7 @@ format:
 
 ### Master's Thesis: *Evaluating the Impact of Passing Conditions and Retakes on Misclassification in the IB’s Diploma Programme*
 **Location:** The Hague  
-**Year:** 2024-2025 
+**Year:** 2024-2025  
 **Supervisor:** Anton Béguin  
 **Languages:** R, Fortran, Quarto
 
