@@ -1,5 +1,7 @@
 project:
   type: website
+  resources:
+    - google46774d30bc5fcf21.html
 
 website:
   title: "Adam Maghout"
@@ -21,4 +23,5 @@ format:
   html:
     theme: lux
     css: styles.css
+
     toc: true
