@@ -18,6 +18,7 @@ website:
         text: Skills
   page-footer:
     center: "© <script>document.write(new Date().getFullYear());</script> Adam Maghout"
+  include-in-header: _includes/search-console.html
         
 format:
   html:
@@ -25,3 +26,4 @@ format:
     css: styles.css
 
     toc: true
+
