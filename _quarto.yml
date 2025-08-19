@@ -1,7 +1,5 @@
 project:
   type: website
-  resources:
-    - google46774d30bc5fcf21.html
 
 website:
   title: "Adam Maghout"
@@ -18,12 +16,10 @@ website:
         text: Skills
   page-footer:
     center: "© <script>document.write(new Date().getFullYear());</script> Adam Maghout"
-  include-in-header: _includes/search-console.html
-        
+
 format:
   html:
     theme: lux
     css: styles.css
-
     toc: true
-
+    include-in-header: _includes/search-console.html
